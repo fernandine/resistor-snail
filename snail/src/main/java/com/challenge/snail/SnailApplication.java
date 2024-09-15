@@ -13,7 +13,7 @@ public class SnailApplication {
 
         System.out.print("Digite o tamanho da matriz (N): ");
         int n = scanner.nextInt();
-        scanner.nextLine();  // Limpa a linha
+        scanner.nextLine();
 
         int[][] matrix = new int[n][n];
         System.out.println("Digite cada linha da matriz separada por espaço:");
